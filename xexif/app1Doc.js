@@ -22,7 +22,7 @@ const listGPSInfoTags = () => {
 }
  
 const listIFD1Tags = () => {
-    console.log(Object.keys(app1Decoder.ifd0TagsRef))
+    console.log(Object.keys(app1Decoder.ifd1TagsRef))
 }
 
 const listStructure = () => {
@@ -98,6 +98,7 @@ module.exports = {
     listExifTags:listExifTags,
     listInteroperabilityTags:listInteroperabilityTags,
     listGPSInfoTags:listGPSInfoTags,
+    listIFD1Tags:listIFD1Tags,
     man:man
 }
 
