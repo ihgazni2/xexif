@@ -222,7 +222,7 @@ const getArrayBufFromImgFile = (fn,markerName) => {
     let buf = fs.readFileSync(fn)
     let imgArrayBuf = buf.buffer
     //2. get APP1 segment (which contain EXIF) to arrayBuffer
-    let markSegments = mksg.getSegments(imgArrayBuf)
+    let markSegments = getSegments(imgArrayBuf)
     let arrayBuf = markSegments[markerName]
     return(arrayBuf)
 }
