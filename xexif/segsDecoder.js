@@ -210,7 +210,7 @@ const getSegments = (imgArrayBuf) => {
 
 
 ////
-const getArrayBufFromImgFile = (fn,markerName) = {
+const getArrayBufFromImgFile = (fn,markerName) => {
     //by default ,get APP1 which contain tiff,exif and GPSInfo
     if(markerName === undefined) {
         markerName = "APP1"
@@ -248,6 +248,6 @@ module.exports = {
     getSOISeg:getSOISeg,
     getMarkerSeg:getMarkerSeg,
     getSegments:getSegments,
-    getArrayBufFromImgFile:getArrayBufFromImgFile
+    getArrayBufFromImgFile:getArrayBufFromImgFile,
     help:help
 }
