@@ -1,0 +1,22 @@
+{
+  "name": "xexif",
+  "version": "1.0.0",
+  "description": "handle EXIF of jpg/jpeg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ihgazni2/xexif.git"
+  },
+  "keywords": [
+    "exif"
+  ],
+  "author": "ihgazni2010@hotmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ihgazni2/xexif/issues"
+  },
+  "homepage": "https://github.com/ihgazni2/xexif#readme"
+}
