@@ -22,7 +22,7 @@ __3. convert Dict of step3 to a more readable stage-1 Dict__
 __4.search a tag(loose mode)__  
 
         xexif.search("GPS",app1s1)
-##__5.get a tag  via a exact tagName ,which could be find in step 4__
+__5.get a tag  via a exact tagName ,which could be find in step 4__
 
         xexif.get("GPSImgDirection",app1s1)
 -------------------------------------------------------
