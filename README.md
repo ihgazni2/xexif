@@ -114,9 +114,9 @@ _(thanks to these two great projects)_
 
 ## TODO
 -----------------------------------------------
-__1.write exif__
-__2.encoder__
-__3.MakerNote__
+__1.write exif__<br>
+__2.encoder__<br>
+__3.MakerNote__<br>
 
 -----------------------------------------------
 
