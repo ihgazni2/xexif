@@ -13,7 +13,7 @@
 __1. load jpg/jpeg image file, return a arrayBuffer__  
 
     var app1ArrayBuf = xexif.getArrayBufFromImgFile("./1.jpg")  
-__2. decode APP1(thigs include EXIF) to a stage-0 Dict<br>but this raw-data-dict is not good for reading/writing__
+__2. decode APP1(thigs include EXIF) to a stage-0 Dict,but this raw-data-dict is not good for reading/writing__
 
     var app1s0 = xexif.decodeAPP1(app1ArrayBuf)
 __3. convert Dict of step3 to a more readable stage-1 Dict__
@@ -63,8 +63,8 @@ _(optional)_
 _(thanks to these two great projects)_
 
 ------------------------------------------------------------------
-[ExifTool by Phil Harvey](http://owl.phy.queensu.ca/~phil/exiftool)  
-[exif-js](https://github.com/exif-js/exif-js)
+[1. ExifTool by Phil Harvey](http://owl.phy.queensu.ca/~phil/exiftool)  
+[2. exif-js](https://github.com/exif-js/exif-js)
 
 --------------------------------------------------------------------
 
