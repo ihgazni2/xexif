@@ -1,3 +1,4 @@
+
 # xexif
 >__handle EXIF of jpg/jpeg__
 
@@ -41,4 +42,24 @@ __6.doc for help and guide__
 
     xexif.man("Orientation")
 -------------------------------------------------------
+
+
+## STANDARDS
+_(Exchangeable image file format for digital still cameras: Exif Version 2.31 )_
+
+---------------------------------------------------------------------------------------
+[Exif 2.31](http://www.cipa.jp/std/documents/e/DC-008-Translation-2016-E.pdf)  
+
+---------------------------------------------------------------------------------------
+
+## PACKAGE DEPENDANY
+_(optional)_
+
+---------------------------------------------------------
+[iconv-lite](https://www.npmjs.com/package/iconv-lite)
+
+----------------------------------------------------------
+
+
+
 
