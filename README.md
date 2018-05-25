@@ -1,6 +1,5 @@
-
 # xexif
->__handle EXIF of jpg/jpeg__
+>__handle EXIF of jpg/jpeg, based on Exif2.31 2016__
 
 # Install
 
@@ -59,6 +58,23 @@ _(optional)_
 [iconv-lite](https://www.npmjs.com/package/iconv-lite)
 
 ----------------------------------------------------------
+
+## CODE REFERENCE
+_(thanks to these two great projects)_
+
+------------------------------------------------------------------
+[ExifTool by Phil Harvey](http://owl.phy.queensu.ca/~phil/exiftool)  
+[exif-js](https://github.com/exif-js/exif-js)
+
+--------------------------------------------------------------------
+
+
+## SOFTWARE REFERENCE
+
+----------------------------------------
+[MagicEXIF](http://www.magicexif.com/)  
+
+----------------------------------------
 
 
 
