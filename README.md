@@ -9,22 +9,22 @@
 ## Usage
 -------------------------------------------------------
 
-    var xexif = require("xexif")
+        var xexif = require("xexif")
 __1. load jpg/jpeg image file, return a arrayBuffer__  
 
-    var app1ArrayBuf = xexif.getArrayBufFromImgFile("./1.jpg")  
+        var app1ArrayBuf = xexif.getArrayBufFromImgFile("./1.jpg")  
 __2. decode APP1(thigs include EXIF) to a stage-0 Dict,but this raw-data-dict is not good for reading/writing__
 
-    var app1s0 = xexif.decodeAPP1(app1ArrayBuf)
+        var app1s0 = xexif.decodeAPP1(app1ArrayBuf)
 __3. convert Dict of step3 to a more readable stage-1 Dict__
 
-    var app1s1 = xexif.readable(app1s0)    
+        var app1s1 = xexif.readable(app1s0)    
 __4.search a tag(loose mode)__  
 
-    xexif.search("GPS",app1s1)
-__5.get a tag  via a exact tagName ,which could be find in step 4__
+        xexif.search("GPS",app1s1)
+##__5.get a tag  via a exact tagName ,which could be find in step 4__
 
-    xexif.get("GPSImgDirection",app1s1)
+        xexif.get("GPSImgDirection",app1s1)
 -------------------------------------------------------
 
 ## Doc Help Man
@@ -33,13 +33,13 @@ __6.doc for help and guide__
 
 ###### __6.1 the APP1 SEG structure__  
 
-    xexif.listStructure()
+        xexif.listStructure()
 ###### __6.2 list all exif tags documented in DC-008-Translation-2016-E__  
 
-    xexif.listExifTags()
+        xexif.listExifTags()
 ###### __6.3 explaination of the tag "Orientation"__
 
-    xexif.man("Orientation")
+        xexif.man("Orientation")
 -------------------------------------------------------
 
 
@@ -77,5 +77,19 @@ _(thanks to these two great projects)_
 ----------------------------------------
 
 
+## USEAGE SCREENSHOOTS
+
+----------------------------------------------
+
+        var xexif = require("xexif")
+        var app1ArrayBuf = xexif.getArrayBufFromImgFile("./1.jpg")
+        var app1s0 = xexif.decodeAPP1(app1ArrayBuf)
+        var app1s1 = xexif.readable(app1s0)
+        app1s1
+
+![](xexif/Images/app1s1.0.png)
+![](xexif/Images/app1s1.1.png)
+![](xexif/Images/app1s1.2.png)
+----------------------------------------------
 
 
