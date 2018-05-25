@@ -44,6 +44,7 @@ __6.doc for help and guide__
 
 
 ## STANDARDS
+
 _(Exchangeable image file format for digital still cameras: Exif Version 2.31 )_
 
 ---------------------------------------------------------------------------------------
@@ -90,6 +91,32 @@ _(thanks to these two great projects)_
 ![](/Images/app1s1.0.png)
 ![](/Images/app1s1.1.png)
 ![](/Images/app1s1.2.png)
+
+        xexif.search("GPS",app1s1)
+        xexif.get("GPSImgDirection",app1s1)
+        
+![](/Images/search_and_get.0.png)  
+
+        xexif.listStructure()
+
+![](/Images/listStructure.0.png)
+
+        xexif.listExifTags()
+
+![](/Images/listExifTags.0.png)
+
+        xexif.man("Orientation")
+
+![](/Images/man_Orientation.0.png)
+
 ----------------------------------------------
 
+
+## TODO
+-----------------------------------------------
+__1.write exif__
+__2.encoder__
+__3.MakerNote__
+
+-----------------------------------------------
 
