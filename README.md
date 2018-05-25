@@ -87,9 +87,9 @@ _(thanks to these two great projects)_
         var app1s1 = xexif.readable(app1s0)
         app1s1
 
-![](xexif/Images/app1s1.0.png)
-![](xexif/Images/app1s1.1.png)
-![](xexif/Images/app1s1.2.png)
+![](/Images/app1s1.0.png)
+![](/Images/app1s1.1.png)
+![](/Images/app1s1.2.png)
 ----------------------------------------------
 
 
